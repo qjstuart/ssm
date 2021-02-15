@@ -1,0 +1,4 @@
+1) setup server and listen for http requests
+2) if admin operation request is received:
+    a) checkVaultExists() - will create vault and generate KEK if no vault file exists
+    
