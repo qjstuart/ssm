@@ -1,0 +1,56 @@
+<h1>Update Application Key</h1>
+<form action="/admin/updateapplicationkey" method="POST">
+
+    <div>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+    </div>
+
+    <div>
+        <label for="name">New Name</label>
+        <input type="text" id="newname" name="newname" required>
+    </div>
+
+    <div>
+        <label for="mode">Mode</label>
+        <select name="mode" id="mode">
+            <option value="gcm">GCM (AES only)</option>
+            <option value="ctr">CTR (AES only)</option>
+            <option value="cbc">CBC</option>
+            <option value="cfb">CFB</option>
+            <option value="cfb1">CFB-1</option>
+            <option value="cfb8">CFB-8</option>
+            <option value="ofb">OFB</option>
+            <option value="ecb">ECB</option>
+        </select>
+    </div>
+
+    <div>
+        <label for="lifetime">New Lifetime (days)</label>
+        <input type="number" id="lifetime" name="lifetime" step="1">
+    </div>
+
+    <div>
+        <label for="autorotate">Autorotate</label>
+        <input type="checkbox" id="autorotate" name="autorotate" value="true">
+    </div>
+    
+    
+    <div>
+        <label for="name">Master key 1</label>
+        <input type="text" id="MK_adminA" name="MK_adminA" required>
+    </div>
+
+    <div>
+        <label for="name">Master key 2</label>
+        <input type="text" id="MK_adminB" name="MK_adminB" required>
+    </div>
+
+
+
+
+    
+    <button type="submit">Submit</button>
+</form>
+
+<a href="/">SSM Admin Menu</a>

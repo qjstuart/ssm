@@ -1,0 +1,17 @@
+<h1>Rotate Key Encryption Key (KEK)</h1>
+<h2>A new 256-bit AES KEK will be randomly generated and used to re-encrypt all Application Keys.</h2>
+<form action="/admin/rotatekeyencryptionkey" method="POST">   
+    <div>
+        <label for="name">Master key 1</label>
+        <input type="text" id="MK_adminA" name="MK_adminA" required>
+    </div>
+
+    <div>
+        <label for="name">Master key 2</label>
+        <input type="text" id="MK_adminB" name="MK_adminB" required>
+    </div>
+    
+    <button type="submit">Submit</button>
+</form>
+
+<a href="/">SSM Admin Menu</a>
