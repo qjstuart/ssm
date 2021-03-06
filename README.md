@@ -17,10 +17,10 @@
 - Initialize the SSM and vault file by creating an application key
 
 <br>
-Administer the SSM using the 2-part master key, and encrypt/decrypt data using the application API. Keep an eye on the terminal which shows encryption/decryption steps and time taken in milliseconds
+Administer the SSM using the 2-part master key, and encrypt/decrypt data using the application API. Keep an eye on the terminal which shows encryption/decryption steps and time taken in milliseconds.
 
-<br>
-<br>
+</br>
+</br>
 
 From *Applied Cryptography* (CPS3232) of the <a href='https://www.um.edu.mt/courses/overview/UBSCHICGCFT-2020-1-O'>B.Sc. Computer Science course.</a>
 
