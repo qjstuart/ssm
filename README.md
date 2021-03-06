@@ -21,5 +21,6 @@ Administer the SSM using the 2-part master key, and encrypt/decrypt data using t
 
 <br>
 <br>
+
 From *Applied Cryptography* (CPS3232) of the <a href='https://www.um.edu.mt/courses/overview/UBSCHICGCFT-2020-1-O'>B.Sc. Computer Science course.</a>
 
